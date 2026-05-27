@@ -27,6 +27,17 @@ Moving beyond basic A/B testing, this analysis progresses through three rigorous
 * **Solution:** Built an Ordinary Least Squares (OLS) Regression model.
 * **Key Feature:** Included an **Interaction Term** (`Promotion * MarketSize`) to allow the model to calculate dynamic coefficients based on exactly where a campaign is deployed, proving mathematically that campaign success is dependent on market size.
 
+## How to Run the Project
+
+Clone this repository.
+
+Ensure you have the required libraries installed:
+
+pip install pandas numpy scipy statsmodels seaborn matplotlib
+Open marketing_analysis.ipynb in Jupyter Notebook or JupyterLab.
+
+Run all cells from top to bottom. (The notebook is 
+
 ## 📂 Project Structure
 ```text
 marketing_campaign_project/
@@ -41,12 +52,4 @@ marketing_campaign_project/
 └── marketing_analysis.ipynb       # Main presentation notebook detailing the data story
 
 
-How to Run the Project
-Clone this repository.
-
-Ensure you have the required libraries installed:
-
-pip install pandas numpy scipy statsmodels seaborn matplotlib
-Open marketing_analysis.ipynb in Jupyter Notebook or JupyterLab.
-
-Run all cells from top to bottom. (The notebook is configured with %autoreload to seamlessly integrate with the src/ module).
+configured with %autoreload to seamlessly integrate with the src/ module).

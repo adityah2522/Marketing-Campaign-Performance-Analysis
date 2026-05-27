@@ -36,7 +36,7 @@ Ensure you have the required libraries installed:
 pip install pandas numpy scipy statsmodels seaborn matplotlib
 Open marketing_analysis.ipynb in Jupyter Notebook or JupyterLab.
 
-Run all cells from top to bottom. (The notebook is 
+Run all cells from top to bottom.
 
 ## 📂 Project Structure
 ```text
